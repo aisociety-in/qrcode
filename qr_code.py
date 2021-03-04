@@ -5,7 +5,7 @@ qr=qrcode.QRCode(
 	border=5
 )
 
-data="Welcome to AI SOCIETY"
+data="TN 60 T 8427"
 qr.add_data(data)
 qr.make(fit=True)
 img=qr.make_image(fill="black",back_color="white")
